@@ -6,9 +6,9 @@ using System.Web.Mvc;
 
 namespace HPlus.Ecommerce.Controllers
 {
-    public class HelloController : Controller
+    public class CartController : Controller
     {
-        // GET: Hello
+        // GET: Cart
         public ActionResult Index()
         {
             return View();

@@ -120,6 +120,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HelloController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -131,12 +132,47 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\banner.jpg" />
+    <Content Include="Content\Images\Icons\192x192.png" />
+    <Content Include="Content\Images\Icons\32x32.png" />
+    <Content Include="Content\Images\logo.png" />
+    <Content Include="Content\Images\Products\1.jpg" />
+    <Content Include="Content\Images\Products\2.jpg" />
+    <Content Include="Content\Images\Products\3.jpg" />
+    <Content Include="Content\Images\Products\4.jpg" />
+    <Content Include="Content\Images\Products\5.jpg" />
+    <Content Include="Content\Images\Products\6.jpg" />
+    <Content Include="Content\Images\Products\7.jpg" />
+    <Content Include="Content\Images\Products\8.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\banner.jpg" />
+    <Content Include="Images\Icons\192x192.png" />
+    <Content Include="Images\Icons\32x32.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\Products\1.jpg" />
+    <Content Include="Images\Products\2.jpg" />
+    <Content Include="Images\Products\3.jpg" />
+    <Content Include="Images\Products\4.jpg" />
+    <Content Include="Images\Products\5.jpg" />
+    <Content Include="Images\Products\6.jpg" />
+    <Content Include="Images\Products\7.jpg" />
+    <Content Include="Images\Products\8.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\Images\Icons\Icon∩Çì" />
+    <Content Include="Content\Images\Icon∩Çì" />
+    <Content Include="Content\Images\Products\Icon∩Çì" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\Icon∩Çì" />
+    <Content Include="Images\Icons\Icon∩Çì" />
+    <Content Include="Images\Icon∩Çì" />
+    <Content Include="Images\Products\Icon∩Çì" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -162,6 +198,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Hello\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

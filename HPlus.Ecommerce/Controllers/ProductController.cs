@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HPlus.Ecommerce.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -18,6 +19,16 @@ namespace HPlus.Ecommerce.Controllers
         public ActionResult Detail(string productName)
         {
             // lookup the product name in the database
+            ViewBag.Product = new Product
+            {
+                Name = "Women's Winter Jacket",
+                FullPrice = 20.00M,
+                CurrentPrice = 16.00M,
+                PercentOff = 20,
+                ImagePath = "/Content/Images/Products/1.jpg",
+                StarRating = 4
+            };
+
             return View();
         }
     }
